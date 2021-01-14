@@ -264,3 +264,19 @@ public class BaseServiceImpl<M extends BaseMapper<T>, T> implements IBaseService
 ```
 
 MP实现了mapper层基础的CRUD方法，这里把一些常用的service层的方法整理了一下，又减少了一些代码量
+ * Maven
+```
+<!-- https://mvnrepository.com/artifact/com.github.codeinghelper/mp-plus -->
+<dependency>
+    <groupId>com.github.codeinghelper</groupId>
+    <artifactId>mp-plus</artifactId>
+    <version>0.0.1</version>
+</dependency>
+
+```
+* Gradle
+```
+// https://mvnrepository.com/artifact/com.github.codeinghelper/mp-plus
+compile group: 'com.github.codeinghelper', name: 'mp-plus', version: '0.0.1'
+
+```
