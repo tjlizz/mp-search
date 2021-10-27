@@ -1,6 +1,6 @@
 > mybatis-plus简称MP是一个 Mybatis 的增强工具，在 Mybatis 的基础上只做增强不做改变，为简化开发、提高效率而生。
 
-这是官方给的定义，关于mybatis-plus的更多介绍及特性，可以参考mybatis-plus[官网](https://mybatis.plus/) 。那么它是怎么增强的呢？其实就是它已经封装好了一些crud方法，我们不需要再写xml了，直接调用这些方法就行，就类似于JPA。
+这是官方给的定义，关于mybatis-plus的更多介绍及特性，可以参考mybatis-plus[官网](https://baomidou.com/) 。那么它是怎么增强的呢？其实就是它已经封装好了一些crud方法，我们不需要再写xml了，直接调用这些方法就行，就类似于JPA。
 
 下面是在`MP`为基础封装了一个查询类，实现了如果需要增加查询条件只需在前端修改即可。             
 # 查询工具
